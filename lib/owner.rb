@@ -80,6 +80,7 @@ class Owner
     Cat.all.each do |cat|
         cat.mood = 'nervous'
       end
+      return nil
     
     Dog.all.each do |dog|
         dog.mood = 'nervous'
