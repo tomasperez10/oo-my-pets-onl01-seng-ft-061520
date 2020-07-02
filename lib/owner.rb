@@ -10,6 +10,9 @@ class Owner
     @@all << self
     @name = name
   end
+  
+  def name
+    @name
 
   def self.all
     @@all
