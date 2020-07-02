@@ -77,7 +77,7 @@ class Owner
   end
 
   def sell_pets
-    pets.each do |pet, arr|
+    Cat.all.each do |pet, arr|
       arr.map do |pet|
         pet.mood = 'nervous'
       end
