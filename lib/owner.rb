@@ -14,6 +14,10 @@ class Owner
   def name
     @name
   end
+  
+  def species
+    
+  end
 
   def self.all
     @@all
