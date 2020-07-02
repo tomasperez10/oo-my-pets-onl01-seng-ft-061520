@@ -83,5 +83,12 @@ class Owner
       end
       arr.clear
     end
+    
+    Dog.all.each do |pet, arr|
+      arr.map do |pet|
+        pet.mood = 'nervous'
+      end
+      arr.clear
+    end
   end
 end
