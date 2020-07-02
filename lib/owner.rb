@@ -85,5 +85,6 @@ class Owner
     Dog.all.each do |dog|
         dog.mood = 'nervous'
       end
+      return nil
   end
 end
