@@ -15,6 +15,10 @@ class Owner
     @name
   end
   
+  def cats
+    
+  end
+  
   def species
     @species = "human"
   end
