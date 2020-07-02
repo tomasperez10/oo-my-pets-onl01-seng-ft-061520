@@ -82,10 +82,7 @@ class Owner
       end
     
     Dog.all.each do |dog|
-      arr.map do |pet|
-        pet.mood = 'nervous'
+        dog.mood = 'nervous'
       end
-      arr.clear
-    end
   end
 end
