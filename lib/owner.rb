@@ -16,7 +16,7 @@ class Owner
   end
   
   def cats
-    @@pets.collect do |cat|
+    @@pets.select do |cat|
       cat.owner == self
     end
   end
