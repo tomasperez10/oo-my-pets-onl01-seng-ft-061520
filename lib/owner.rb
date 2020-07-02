@@ -66,7 +66,7 @@ class Owner
     end
   end
   
-  def feed_cat
+  def feed_cats
 
   def list_pets
     "I have #{pets[:dogs].length} dog(s) and #{pets[:cats].length} cat(s)."
